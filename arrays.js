@@ -16,3 +16,6 @@ return [...array, element];
 function destructivelyAddElementToEndOfArray(array, element){
 return array.push(element);
 }
+function destructivelyRemoveElementFromBeginningOfArray(array, element){
+return array.shift(element);
+}
